@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio professionnel de Djaka Condé - Administrateur Système & Analyste Cybersécurité">
+    <title>Djaka Condé | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Accessibilité : Lien d'évitement -->
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+    <!-- Navigation commune -->
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">Djaka<span>.Condé</span></a>
+            <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="main-nav" id="navMenu">
+                <a href="index.html" class="active">Accueil</a>
+                <a href="about.html">À propos</a>
+                <a href="projects.html">Projets</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Section Hero -->
+        <section class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <span class="badge">Programme 1000 Tech Leaders</span>
+                    <h1>Djaka Condé</h1>
+                    <h2>Administrateur Système & Analyste Cybersécurité</h2>
+                    <p>Étudiant passionné par la sécurisation des infrastructures numériques, la gestion des réseaux
+                        (Linux/Windows Server) et l'audit de sécurité informatique.</p>
+                    <div class="hero-buttons">
+                        <a href="projects.html" class="btn btn-primary">Découvrir mes projets</a>
+                        <a href="assets/cv_djaka_conde.pdf" class="btn btn-secondary" download>Télécharger mon CV</a>
+                    </div>
+                </div>
+                <div class="hero-avatar">
+                    <div class="avatar-placeholder" aria-hidden="true">
+                        <span>DC</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aperçu Compétences -->
+        <section class="skills-preview container">
+            <h2 class="section-title">Aperçu de mon expertise</h2>
+            <div class="grid grid-3">
+                <article class="card">
+                    <div class="card-icon">🛡️</div>
+                    <h3>Administration Système</h3>
+                    <p>Configuration et gestion d'infrastructures Linux et Windows Server, virtualisation avec VMware
+                        Workstation Pro.</p>
+                </article>
+                <article class="card">
+                    <div class="card-icon">🔒</div>
+                    <h3>Cybersécurité</h3>
+                    <p>Mise en place de mécanismes de double authentification (2FA/MFA) et analyse des vecteurs
+                        d'attaques informatiques.</p>
+                </article>
+                <article class="card">
+                    <div class="card-icon">💻</div>
+                    <h3>Développement Web</h3>
+                    <p>Conception de sites web responsive, accessibles (a11y) et respectant les normes d'écoconception
+                        numérique.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Djaka Condé. Tous droits réservés.</p>
+            <ul class="social-links">
+                <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Bouton flottant Retour en haut (pour l'accueil) -->
+    <a href="#top" class="back-to-home-floating" id="floatingHomeBtn" aria-label="Retourner en haut de la page">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="m18 15-6-6-6 6"/>
+        </svg>
+        <span>Haut de page</span>
+    </a>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="À propos de Djaka Condé - Administrateur Système & Analyste Cybersécurité">
+    <title>À propos | Djaka Condé</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">Djaka<span>.Condé</span></a>
+            <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="main-nav" id="navMenu">
+                <a href="index.html">Accueil</a>
+                <a href="about.html" class="active">À propos</a>
+                <a href="projects.html">Projets</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="container page-padding center-content">
+        <section class="about-section centered-block">
+            <!-- Photo de profil -->
+            <div class="profile-photo-container">
+                <img src="assets/images/djaka.jpg" alt="Photo de Djaka Condé" class="profile-photo">
+            </div>
+
+            <h1 class="page-title">À Propos de moi</h1>
+
+            <p class="about-text">
+                Bienvenue sur mon portfolio. Je suis <strong>Djaka Condé</strong>, étudiant dans le programme
+                <strong>1000 Tech Leaders</strong>, spécialisé en administration système, réseaux et cybersécurité.
+            </p>
+            <p class="about-text">
+                Je me consacre au déploiement d'infrastructures sécurisées, à l'application du moindre privilège et à la
+                protection des réseaux informatiques.
+            </p>
+
+            <!-- Bloc CV centré -->
+            <div class="cv-highlight-box centered-box">
+                <h3>Curriculum Vitae</h3>
+                <p>Consultez mon parcours académique et technique complet au format PDF :</p>
+                <a href="assets/cv_djaka_conde.pdf" class="btn btn-primary" download>Télécharger mon CV (PDF)</a>
+            </div>
+        </section>
+
+        <section class="skills-section centered-block">
+            <h2 class="section-title">Compétences Techniques</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Systèmes & Virtualisation</h3>
+                    <ul>
+                        <li>Linux (Debian / Ubuntu)</li>
+                        <li>Windows Server & Active Directory</li>
+                        <li>VMware Workstation Pro</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Cybersécurité & Réseaux</h3>
+                    <ul>
+                        <li>Authentification forte (2FA / MFA)</li>
+                        <li>Analyse de vulnérabilités</li>
+                        <li>Architecture réseau sécurisée</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Développement & Écoconception</h3>
+                    <ul>
+                        <li>HTML5 sémantique / CSS3 Responsive</li>
+                        <li>JavaScript ES6 / Validation</li>
+                        <li>Accessibilité web (a11y)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Djaka Condé. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Bouton flottant Retour à l'accueil -->
+    <a href="index.html" class="back-to-home-floating" id="floatingHomeBtn" aria-label="Retourner à l'accueil">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+            <polyline points="9 22 9 12 15 12 15 22"/>
+        </svg>
+        <span>Accueil</span>
+    </a>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
